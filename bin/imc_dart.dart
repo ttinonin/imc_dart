@@ -38,27 +38,35 @@ void main(List<String> arguments) {
 
   if(imc < 16) {
     print("${pessoa.nome} possui magreza grave");
+    print("IMC: ${imc.toStringAsFixed(2)}");
     exit(0);
   } else if (imc >= 16 && imc < 17) {
     print("${pessoa.nome} possui magreza moderada");
+    print("IMC: ${imc.toStringAsFixed(2)}");
     exit(0);
   } else if (imc >= 17 && imc < 18.5) {
     print("${pessoa.nome} possui magreza leve");
+    print("IMC: ${imc.toStringAsFixed(2)}");
     exit(0);
   } else if (imc >= 18.5 && imc < 25) {
     print("${pessoa.nome} está saudável");
+    print("IMC: ${imc.toStringAsFixed(2)}");
     exit(0);
   } else if (imc >= 25 && imc < 30) {
     print("${pessoa.nome} está com sobrepeso");
+    print("IMC: ${imc.toStringAsFixed(2)}");
     exit(0);
   } else if (imc >= 30 && imc < 35) {
     print("${pessoa.nome} possui obesidade grau I");
+    print("IMC: ${imc.toStringAsFixed(2)}");
     exit(0);
   } else if (imc >= 35 && imc < 40) {
     print("${pessoa.nome} possui obesidade grau II (severa)");
+    print("IMC: ${imc.toStringAsFixed(2)}");
     exit(0);
   } else if (imc >= 40) {
     print("${pessoa.nome} possui obesidade grau III (mórbida)");
+    print("IMC: ${imc.toStringAsFixed(2)}");
     exit(0);
   }
 }
